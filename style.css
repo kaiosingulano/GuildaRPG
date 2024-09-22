@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte: "Cinzel Decorative", serif;
+    --background: #eed7a1;
+    --corfonte: #8a8583;
+}
+body {
+    background-color: var(--background);
+    font-family: var(--fonte);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecalho {
+    border: 5px solid black;
+    border-radius: 0 15px 0 15px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.bem-vindo {
+    margin: 0 30px;
+}
+
+.mapa {
+    width: 80vw;
+    border: 5px solid black;
+    border-radius: 0 15px 0 15px;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.menutitulo {
+    border-top: 5px solid black;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.menulinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 0 10px 0 10px;
+    padding: 5px;
+}
+
+.aventureiro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px 0;
+    border-top: 5px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+.containerfoto {
+    width: 90%;
+    height: 250px;
+    overflow: hidden;
+    margin: 20px 20px 0;
+    border: 5px solid black;
+    border-radius: 0 25px 0 25px;
+}
+
+.foto {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ficha {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin: auto 20px;
+}
+
+.descricao {
+    font-size: 10px;
+}
+
+.drikka {
+    margin-bottom: -150px;
+}
+
+.max {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
